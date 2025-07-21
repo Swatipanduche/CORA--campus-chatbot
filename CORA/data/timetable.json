@@ -1,0 +1,68 @@
+{
+  "CSE": {
+    "1st year": {
+      "Monday": [{"time":"9-10","subject":"Maths","room":"C101"}],
+      "Tuesday":[{"time":"9-10","subject":"C Prog","room":"C102"}],
+      "Wednesday":[{"time":"9-10","subject":"Physics","room":"C103"}],
+      "Thursday":[{"time":"9-10","subject":"English","room":"C104"}],
+      "Friday":[{"time":"9-10","subject":"Workshop","room":"C105"}]
+    },
+    "2nd year": {
+      "Monday": [{"time":"10-11","subject":"DBMS","room":"C201"}],
+      "Tuesday":[{"time":"10-11","subject":"OS","room":"C202"}],
+      "Wednesday":[{"time":"10-11","subject":"CN","room":"C203"}],
+      "Thursday":[{"time":"10-11","subject":"AI","room":"C204"}],
+      "Friday":[{"time":"10-11","subject":"Project","room":"C205"}]
+    },
+    "3rd year": {
+      "Monday": [{"time":"11-12","subject":"SE","room":"C301"}],
+      "Tuesday":[{"time":"11-12","subject":"Software Lab","room":"Lab 1"}]
+    },
+    "4th year": {
+      "Monday": [{"time":"12-1","subject":"Mini Project","room":"C401"}],
+      "Tuesday":[{"time":"12-1","subject":"Seminar","room":"C402"}]
+    }
+  },
+  "AIML": {
+    "1st year": {
+      "Monday": [{"time":"9-10","subject":"Python","room":"A101"}]
+    },
+    "2nd year": {
+      "Tuesday":[{"time":"9-10","subject":"ML","room":"A202"}]
+    },
+    "3rd year": {
+      "Wednesday":[{"time":"9-10","subject":"Statistics","room":"A303"}]
+    },
+    "4th year": {
+      "Thursday":[{"time":"9-10","subject":"DL","room":"A404"}]
+    }
+  },
+  "AIDS": {
+    "1st year": {
+      "Monday":[{"time":"9-10","subject":"Stats","room":"AD101"}]
+    },
+    "2nd year": {
+      "Tuesday":[{"time":"9-10","subject":"Python","room":"AD202"}]
+    },
+    "3rd year": {
+      "Wednesday":[{"time":"9-10","subject":"Data Mining","room":"AD303"}]
+    },
+    "4th year": {
+      "Thursday":[{"time":"9-10","subject":"Final Project","room":"AD404"}]
+    }
+  },
+  "Cyber Security": {
+    "1st year": {
+      "Monday":[{"time":"9-10","subject":"Networking","room":"CS101"}]
+    },
+    "2nd year": {
+      "Tuesday":[{"time":"9-10","subject":"Ethical Hacking","room":"CS202"}]
+    },
+    "3rd year": {
+      "Wednesday":[{"time":"9-10","subject":"Cryptography","room":"CS303"}]
+    },
+    "4th year": {
+      "Thursday":[{"time":"9-10","subject":"Cloud Security","room":"CS404"}]
+    }
+  }
+}

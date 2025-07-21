@@ -1,0 +1,8 @@
+{
+  "Monday": ["Chapati","Rice","Dal","Sabzi"],
+  "Tuesday": ["Pulao","Raita","Veg Curry"],
+  "Wednesday": ["Fried Rice","Manchurian","Salad"],
+  "Thursday": ["Chole Bhature","Sweet","Salad"],
+  "Friday": ["Veg Biryani","Curry","Papad"],
+  "Saturday": ["Khichdi","Sabzi","Curd"]
+}

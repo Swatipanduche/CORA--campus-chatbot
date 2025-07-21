@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Grievance Form</title>
+</head>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    padding: 40px;
+  }
+
+  .form-container {
+    max-width: 500px;
+    background: #ffffff;
+    padding: 25px 30px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #2c3e50;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333333;
+  }
+
+  input[type="text"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+
+  textarea {
+    resize: vertical;
+  }
+
+  input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+</style>
+
+<body>
+ 
+  <div class="form-container">
+    <h2>📝 Submit a Grievance</h2>
+    <form action="/submit_grievance" method="post">
+      <label for="name">Your Name:</label>
+      <input type="text" name="name" required>
+
+      <label for="category">Category:</label>
+      <select name="category" required>
+        <option value="Student">Student</option>
+        <option value="Faculty">Faculty</option>
+        <option value="Other">Other</option>
+      </select>
+
+      <label for="complaint">Complaint:</label>
+      <textarea name="complaint" rows="5" required></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+
+</body>
+</html>

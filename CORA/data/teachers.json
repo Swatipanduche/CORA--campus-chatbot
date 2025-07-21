@@ -1,0 +1,26 @@
+{
+  "CSE": {
+    "1st year": "Dr. Patel",
+    "2nd year": "Prof. Singh",
+    "3rd year": "Prof. Kumar",
+    "4th year": "Dr. Joshi"
+  },
+  "AIML": {
+    "1st year": "Dr. Rao",
+    "2nd year": "Prof. Mehta",
+    "3rd year": "Prof. Desai",
+    "4th year": "Dr. Verma"
+  },
+  "AIDS": {
+    "1st year": "Dr. Sharma",
+    "2nd year": "Prof. Dixit",
+    "3rd year": "Prof. Nair",
+    "4th year": "Dr. Kulkarni"
+  },
+  "Cyber Security": {
+    "1st year": "Prof. Banerjee",
+    "2nd year": "Dr. Iyer",
+    "3rd year": "Prof. Reddy",
+    "4th year": "Dr. Chakraborty"
+  }
+}

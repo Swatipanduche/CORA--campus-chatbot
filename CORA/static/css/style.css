@@ -1,0 +1,7 @@
+body { font-family: sans-serif; padding:20px; }
+#chat-box { border:1px solid #ccc; height:350px; overflow:auto; padding:10px; }
+.user { text-align:right; background:#d1ecf1; margin:5px; padding:5px; }
+.bot  { text-align:left; background:#d4edda; margin:5px; padding:5px; }
+.input-area { margin-top:10px; }
+input { width:70%; padding:8px; }
+button { padding:8px 10px; margin-left:5px; }
