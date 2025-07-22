@@ -1,26 +1,26 @@
 {
   "CSE": {
-    "1st year": "Dr. Patel",
-    "2nd year": "Prof. Singh",
-    "3rd year": "Prof. Kumar",
-    "4th year": "Dr. Joshi"
+    "1st year": "Dr.Ganesh Kendra",
+    "2nd year": "Prof.Trupti Frande",
+    "3rd year": "Prof.Swami Ashwini",
+    "4th year": "Dr.Gitanjali Kadlag"
   },
   "AIML": {
-    "1st year": "Dr. Rao",
-    "2nd year": "Prof. Mehta",
-    "3rd year": "Prof. Desai",
-    "4th year": "Dr. Verma"
+    "1st year": "Dr.Tejaswi Hude",
+    "2nd year": "Prof.Ayush Mehta",
+    "3rd year": "Prof. Priya Desai",
+    "4th year": "Dr.Komal Verma"
   },
   "AIDS": {
-    "1st year": "Dr. Sharma",
-    "2nd year": "Prof. Dixit",
-    "3rd year": "Prof. Nair",
-    "4th year": "Dr. Kulkarni"
+    "1st year": "Dr.Vikrant Sharma",
+    "2nd year": "Prof.Snehal Dixit",
+    "3rd year": "Prof.Rohini  Nair",
+    "4th year": "Dr.Vaishnavi Kulkarni"
   },
   "Cyber Security": {
-    "1st year": "Prof. Banerjee",
-    "2nd year": "Dr. Iyer",
-    "3rd year": "Prof. Reddy",
-    "4th year": "Dr. Chakraborty"
+    "1st year": "Prof.Banerjee",
+    "2nd year": "Dr.Payal Iyer",
+    "3rd year": "Prof.Nikita Walke",
+    "4th year": "Dr.Komal Sharma"
   }
 }
