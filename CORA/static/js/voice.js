@@ -1,31 +1,46 @@
-const micBtn = document.getElementById("mic-btn");
+window.addEventListener("DOMContentLoaded", () => {
+  const micBtn = document.getElementById("mic-btn");
 
-if ("webkitSpeechRecognition" in window) {
-  const recognition = new webkitSpeechRecognition();
-  recognition.lang = "en-US";
-  recognition.continuous = false;
-  recognition.interimResults = false;
+  if (!micBtn) return;
 
-  micBtn.addEventListener("click", () => {
-    recognition.start();
-    micBtn.innerText = "🎙️ Listening...";
-  });
+  if ("webkitSpeechRecognition" in window) {
+    const recognition = new webkitSpeechRecognition();
+    recognition.lang = "en-US";
+    recognition.continuous = false;
+    recognition.interimResults = false;
 
-  recognition.onresult = function (event) {
-    const transcript = event.results[0][0].transcript;
-    document.getElementById("user-input").value = transcript;
-    document.getElementById("send-btn").click();
-    micBtn.innerText = "🎤";
-  };
+    micBtn.addEventListener("click", () => {
+      micBtn.disabled = true;
+      micBtn.innerText = "🎙️ Listening...";
 
-  recognition.onerror = function () {
-    micBtn.innerText = "🎤";
-  };
+      recognition.start();
+    });
 
-  recognition.onend = function () {
-    micBtn.innerText = "🎤";
-  };
-} else {
-  micBtn.disabled = true;
-  micBtn.innerText = "Mic ❌";
-}
+    recognition.onresult = function (event) {
+      const transcript = event.results[0][0].transcript.trim();
+      const inputField = document.getElementById("user-input");
+      const sendBtn = document.getElementById("send-btn");
+
+      if (inputField && sendBtn) {
+        inputField.value = transcript;
+        sendBtn.click();
+      }
+    };
+
+    recognition.onerror = function (event) {
+      console.error("Speech recognition error:", event.error);
+      alert("🎤 Mic Error: " + event.error);
+      micBtn.disabled = false;
+      micBtn.innerText = "🎤";
+    };
+
+    recognition.onend = function () {
+      micBtn.disabled = false;
+      micBtn.innerText = "🎤";
+    };
+  } else {
+    micBtn.disabled = true;
+    micBtn.innerText = "Mic ❌";
+    alert("❌ Your browser does not support voice recognition.");
+  }
+});
