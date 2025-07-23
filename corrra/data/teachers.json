@@ -1,0 +1,18 @@
+{
+  "CSE": {
+    "FE": {
+      "name": "Prof. Anjali Sharma",
+      "email": "anjali.sharma@college.edu"
+    },
+    "SE": {
+      "name": "Dr. Ravi Kumar",
+      "email": "ravi.kumar@college.edu"
+    }
+  },
+  "AIML": {
+    "FE": {
+      "name": "Ms. Neha Patil",
+      "email": "neha.patil@college.edu"
+    }
+  }
+}

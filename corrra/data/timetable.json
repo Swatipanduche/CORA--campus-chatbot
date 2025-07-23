@@ -1,0 +1,30 @@
+{
+  "CSE": {
+    "FE": {
+      "Monday": ["Maths", "Physics", "CS Fundamentals"],
+      "Tuesday": ["English", "Physics Lab", "Workshop"],
+      "Wednesday": ["Maths", "Chemistry", "Library"],
+      "Thursday": ["C Programming", "English", "Sports"],
+      "Friday": ["Maths", "C Lab", "CS Fundamentals"],
+      "Saturday": ["Guest Lecture", "Workshop"]
+    },
+    "SE": {
+      "Monday": ["DSA", "DBMS", "OOP"],
+      "Tuesday": ["DBMS Lab", "Maths", "Elective"],
+      "Wednesday": ["DSA", "OOP", "Library"],
+      "Thursday": ["CN", "DBMS", "Elective"],
+      "Friday": ["Maths", "OOP Lab", "CN Lab"],
+      "Saturday": ["Hackathon", "Workshop"]
+    }
+  },
+  "AIML": {
+    "FE": {
+      "Monday": ["Maths", "AI Intro", "Python"],
+      "Tuesday": ["English", "AI Lab", "Workshop"],
+      "Wednesday": ["Maths", "Python Lab", "Library"],
+      "Thursday": ["AI Ethics", "English", "Sports"],
+      "Friday": ["Maths", "ML Basics", "Python"],
+      "Saturday": ["Guest Lecture", "AI Club"]
+    }
+  }
+}
